@@ -1,0 +1,7 @@
+## 🧬 Project Summary: BioGC Analyzer – Multi-FASTA GC Content Dashboard
+
+**BioGC_Analyzer_Multi-FASTA_GC-Content_Dashboard** is a Python-based bioinformatics tool designed to analyze and visualize GC content across multiple DNA sequences from FASTA files. The project parses genomic data, extracts gene sequences, and computes key metrics such as GC content percentage and sequence length.
+
+It generates a comprehensive dashboard-style visualization in a single PNG file, combining multiple plots including GC content comparison, gene length distribution, histogram analysis, and box plot representation. This allows quick and clear interpretation of nucleotide composition across different genes.
+
+The project is useful for genomic research, comparative sequence analysis, and educational bioinformatics applications, demonstrating skills in Python programming, biological data processing, and scientific visualization.
