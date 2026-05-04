@@ -45,7 +45,7 @@ def create_report(data, filename="report.pdf"):
 st.markdown("""
 <style>
 body {
-    background-color: #0b0f19;
+    background-color: #0b0f19 !important;
 }
 
 .block-container {
@@ -57,7 +57,7 @@ h1, h2, h3 {
 }
 
 [data-testid="stMetric"] {
-    background-color: #111827;
+    background-color: #111827 !important;
     padding: 15px;
     border-radius: 12px;
     text-align: center;
@@ -66,14 +66,14 @@ h1, h2, h3 {
 .stButton>button {
     border-radius: 8px;
     background: linear-gradient(90deg, #2563eb, #1e40af);
-    color: white;
+    color: white !important;
     font-weight: 600;
 }
 
 .stDownloadButton>button {
     border-radius: 8px;
     background: #1e293b;
-    color: white;
+    color: white !important;
 }
 
 hr {
