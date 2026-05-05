@@ -318,35 +318,102 @@ elif section == "🧾Export Report":
 elif section == "ℹ️About Us":
 
     # --- New Section: About Biocode Innovators ---
-    st.markdown("---")  # separator line
 
-    st.header("About Biocode Innovators")
+    # ------------------- ABOUT US SECTION -------------------
 
     st.markdown("""
-    **Biocode Innovators** bridges the gap between biology and computational technology.  
-    We provide hands-on training, workshops, and resources for students, researchers, and professionals in bioinformatics, genomics, and data-driven life sciences.  
+    <div style="max-width: 900px; margin: auto;">
 
-    **Founded by:** Abeera Iftikhar  
-    **Mission:** Make biological data accessible, understandable, and actionable.  
-    **Slogan:**  *Let's decode biology together!*  
+    <h1 style="
+        font-family: 'Space Grotesk', sans-serif;
+        font-weight: 700;
+        text-align: center;
+        background: linear-gradient(90deg, #2563eb, #60a5fa);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    ">
+    🚀 About Biocode Innovators
+    </h1>
 
-    **Areas of Focus:**
-    - Computational Biology  
-    - Data Analysis  
-    - Biological Data Visualization  
-    - In-silico Analysis  
-    - Python for Biology  
-    - R for Biology  
+    <p style="text-align:center; font-size:16px; color:#9ca3af;">
+    Bridging Biology 🧬 and Technology 💻 through modern computational solutions
+    </p>
 
-    **Industry:** E-Learning Providers  
-    **Company Size:** 2–10 employees (4 associated members)  
-    **Founded:** 2025  
-    **Phone:** 03159633608  
-    """)
+    <br>
 
+    <div style="
+        background-color:#111827;
+        padding:20px;
+        border-radius:12px;
+        margin-bottom:20px;
+    ">
+    <p style="font-size:15px; line-height:1.7;">
+    <strong>Biocode Innovators</strong> is dedicated to transforming biological data into meaningful insights.
+    We empower students, researchers, and professionals with hands-on tools, training, and real-world applications in 
+    <strong>bioinformatics, genomics, and data-driven life sciences</strong>.
+    </p>
+    </div>
 
+    <div style="display:flex; gap:20px; flex-wrap:wrap;">
 
+    <div style="
+        flex:1;
+        background-color:#111827;
+        padding:20px;
+        border-radius:12px;
+    ">
+    <h3>👩‍🔬 Founder</h3>
+    <p>Abeera Iftikhar</p>
 
+    <h3>🎯 Mission</h3>
+    <p>Make biological data accessible, understandable, and actionable.</p>
+
+    <h3>💡 Vision</h3>
+    <p>Enable the next generation of scientists to leverage computation in biology.</p>
+    </div>
+
+    <div style="
+        flex:1;
+        background-color:#111827;
+        padding:20px;
+        border-radius:12px;
+    ">
+    <h3>📌 Focus Areas</h3>
+    <ul>
+    <li>🧬 Computational Biology</li>
+    <li>📊 Data Analysis</li>
+    <li>📈 Biological Data Visualization</li>
+    <li>⚙️ In-silico Analysis</li>
+    <li>🐍 Python for Biology</li>
+    <li>📉 R for Biology</li>
+    </ul>
+    </div>
+
+    </div>
+
+    <br>
+
+    <div style="
+        background-color:#111827;
+        padding:20px;
+        border-radius:12px;
+    ">
+    <h3>🏢 Company Details</h3>
+    <p><strong>Industry:</strong> E-Learning & Bioinformatics Solutions</p>
+    <p><strong>Team Size:</strong> 2–10 members</p>
+    <p><strong>Founded:</strong> 2025</p>
+    <p><strong>Contact:</strong> 📞 03159633608</p>
+    </div>
+
+    <br>
+
+    <p style="text-align:center; font-style:italic; color:#60a5fa;">
+    ✨ “Let’s decode biology together.” ✨
+    </p>
+
+    </div>
+    """, unsafe_allow_html=True)
+#   
 
 
 
