@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ## AI-Based-Bioinformatics-Portfolio
 AI-based bioinformatics portfolio integrating machine learning and computational biology to analyze DNA, RNA, and protein sequences. Includes sequence classification, GC content analysis, clustering, and drug discovery pipelines using Python, Biopython, and ML models for biological data-driven insights and predictive modeling.
 
@@ -47,3 +48,7 @@ To bridge Artificial Intelligence with Computational Biology for predictive anal
 - Deep Learning models for protein folding
 - Graph Neural Networks for drug discovery
 - Web-based AI bioinformatics platform
+=======
+# BioGC_Analyzer_Multi_FASTA_GC_Content_Dashboard
+BioGC Analyzer processes multi-FASTA files to compute GC content, visualize sequence patterns, and produce publication-ready summaries for genomic analysis.
+>>>>>>> 716371d1a303833c62c13602674643248894f8eb
